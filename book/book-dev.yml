@@ -1,7 +1,7 @@
 spring:
   rabbitmq:
-    host: ${CLOUD_BUS_RABBIT_HOST}
-    port: ${CLOUD_BUS_RABBIT_PORT}
+    host: ${CLOUD_BUS_RABBIT_HOST:127.0.0.1}
+    port: ${CLOUD_BUS_RABBIT_PORT:5672}
     username: ${CLOUD_BUS_RABBIT_USERNAME}
     password: ${CLOUD_BUS_RABBIT_PASSWORD}
 
