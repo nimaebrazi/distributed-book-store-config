@@ -29,5 +29,5 @@ management:
 
 
 example:
-  first: first-1-changed
+  first: first-1
   second: second-2
